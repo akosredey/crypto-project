@@ -1,0 +1,161 @@
+,Id,Name,Year_Established,Country,Description,Url,Image,Has_Trading_Incentive,Trust_Score,Trust_Score_Rank,Trade_Volume_24H_Btc,Trade_Volume_24H_Btc_Normalized,ExchangeID
+0,binance,Binance,2017.0,Cayman Islands,,https://www.binance.com/,https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250,False,10,1,858426.3605606516,858426.3605606516,9
+1,gdax,Coinbase Pro,2012.0,United States,,https://www.coinbase.com,https://assets.coingecko.com/markets/images/23/small/fe290a14-ac8f-4c90-9aed-5e72abf271f0.jpeg?1527171545,False,10,2,73391.13616075479,73391.13616075479,57
+2,kraken,Kraken,2011.0,United States,,https://r.kraken.com/Q1m9x,https://assets.coingecko.com/markets/images/29/small/kraken.jpg?1584251255,False,10,3,52172.76583955299,52172.76583955299,69
+3,bitfinex,Bitfinex,2014.0,British Virgin Islands,,https://www.bitfinex.com,https://assets.coingecko.com/markets/images/4/small/BItfinex.png?1615895883,False,10,4,34473.17516857526,34473.17516857526,13
+4,binance_us,Binance US,2019.0,United States,,https://www.binance.us/en,https://assets.coingecko.com/markets/images/469/small/Binance.png?1568875842,False,10,5,19763.574709078137,19763.574709078137,10
+5,gate,Gate.io,,Hong Kong,,https://gate.io/,https://assets.coingecko.com/markets/images/60/small/gateio.jpg?1519793974,False,10,6,19809.521884306472,19809.521884306472,56
+6,crypto_com,Crypto.com,2019.0,Cayman Islands,"Crypto.com Exchange is the best place to trade crypto, with deep liquidity, low fees and best execution prices, users can trade major cryptocurrencies like Bitcoin, Ethereum, and many more and receive great CRO-powered rewards",https://crypto.com/exchange,https://assets.coingecko.com/markets/images/589/small/crypto_com.jpg?1602499898,False,10,7,6784.067938979687,6784.067938979687,47
+7,gemini,Gemini,2014.0,United States,,https://gemini.sjv.io/bZ49k,https://assets.coingecko.com/markets/images/50/small/gemini.png?1605704107,False,10,8,5605.401544959971,5605.401544959971,58
+8,huobi,Huobi Global,2013.0,Seychelles,,https://www.huobi.com,https://assets.coingecko.com/markets/images/25/small/1481589873352_.pic_hd.jpg?1589962155,False,9,9,270345.4842843605,270345.4842843605,64
+9,okex,OKEx,2013.0,Belize,,https://www.okex.com,https://assets.coingecko.com/markets/images/96/small/okEX.jpg?1519349636,False,9,10,201479.29934885757,201479.29934885757,84
+10,kucoin,KuCoin,2014.0,Seychelles,,https://www.kucoin.com/,https://assets.coingecko.com/markets/images/61/small/kucoin.jpg?1591610627,False,9,11,44509.13787516833,44509.13787516833,70
+11,ftx_spot,FTX,2019.0,Antigua and Barbuda,,https://ftx.com/,https://assets.coingecko.com/markets/images/451/small/F.png?1609051590,False,9,12,28212.04837223176,28212.04837223176,54
+12,bitstamp,Bitstamp,2013.0,United Kingdom,,https://www.bitstamp.net/,https://assets.coingecko.com/markets/images/9/small/bitstamp.jpg?1519627979,False,9,13,23060.552835324106,23060.552835324106,27
+13,hotbit,Hotbit,,Estonia,"Founded in 2018 and holding Estonian MTR licence, American MSB licence, an Australian AUSTRAC licence and a Canadian MSB licence，HotBit cryptocurrency exchange is known as a cryptocurrency trading platofrm that continues to develop and integrate various forms of businesses such as spot trading, financial derivatives, cryptocurrency investment and DAPP into one platform. Currently, Hotbit’s businesses covers more than 210 countries and areas. Based on its globalized and unified strategies, HotBit continues to focus on world's emerging markets such as Russia, Turkey and southeastern Asia markets, and was ranked one of the top 3 most welcomed exchanges by Russian media in 2019.",https://www.hotbit.io/,https://assets.coingecko.com/markets/images/201/small/hotbit.jpg?1531043195,False,9,14,9398.782277188067,9398.782277188067,63
+14,bitmax,AscendEX (BitMax),2018.0,Singapore,"AscendEX (formerly BitMax) is a leading global digital asset financial platform founded by a group of Wall Street quantitative trading veterans in 2018, building on core value of “Efficiency, Resilience and Transparency.” 
+ 
+Driven by its continuous innovative product development and early-mover advantage in strategic alignment with the leading projects from DeFi ecosystem, AscendEX offers trading services across over 200 trading pairs across cash, margin, and futures products, in particular margin trading of over 50 tokens in cross-asset collateral mode and futures trading in both cross-asset and isolated margin modes.",https://ascendex.com/en/global-digital-asset-platform,https://assets.coingecko.com/markets/images/277/small/AscendEX.png?1616471675,False,9,15,9306.585605358008,9306.585605358008,21
+15,bittrex,Bittrex,2014.0,United States,,https://bittrex.com/,https://assets.coingecko.com/markets/images/10/small/BG-color-250x250_icon.png?1596167574,False,9,16,7903.2518308733615,7903.2518308733615,28
+16,bithumb_global,Bithumb Global,2019.0,Seychelles,,https://bithumb.pro/,https://assets.coingecko.com/markets/images/405/small/bithumbglobal.jpg?1599652253,False,9,17,6813.019084211255,6813.019084211255,18
+17,bitso,Bitso,2014.0,Mexico,,https://bitso.com,https://assets.coingecko.com/markets/images/8/small/Bitso-icon-dark.png?1581909156,False,9,18,829.8701496236419,829.8701496236419,26
+18,nice_hash,NiceHash,,Slovenia,,https://www.nicehash.com,https://assets.coingecko.com/markets/images/546/small/nicehash.png?1594379914,False,9,19,64.59373331456315,64.59373331456315,80
+19,bitforex,Bitforex,2018.0,Seychelles,,https://www.bitforex.com/,https://assets.coingecko.com/markets/images/214/small/BitForex-Logo.png?1573808227,False,8,20,106404.55532384261,106404.55532384261,15
+20,changelly,Changelly PRO,2020.0,Seychelles,"Launched on 06/07/2020, Changelly PRO is a centralized exchange located at 306 Victoria House, Victoria Mahe, Seychelles. It is a professional version of the instant swap platform Changelly. Changelly PRO aims to serve the fast growing Changelly community that has been requesting professional trading features as well as foster the onboarding of beginners to advanced trading. The PRO version has spot and margin trading as well as fiat on-ramp solution.
+PRO offers:
+• Multi-currency wallet to store a variety of coins
+• Interactive and customizable terminal
+• Access to 50+ markets
+• Competitive trading fees starting from 0.1% both for makers and takers
+• Lowest withdrawal fees on the most popular coins and tokens such as BTC, ETH, XRP
+• Simple registration process with several verification levels",https://pro.changelly.com/,https://assets.coingecko.com/markets/images/580/small/pro_logo_cmc.png?1600833621,False,8,21,75882.2272988277,75882.2272988277,38
+21,bitcoin_com,Bitcoin.com Exchange,2019.0,Bahamas,"The mission of Bitcoin.com Exchange is to empower people from all over the world to trade cryptocurrencies with ease and confidence, from first-time traders to advanced trading professionals. With high liquidity, 24/7 multilingual support and dozens of trading pairs, complemented with a high level of security, we offer an attractive platform for trading any cryptocurrency. Within one year since launch, on average, our exchange has been visited by more than 500K active traders per month, and this number continues to grow as you read this sentence. 
+
+Key Features:
+
+- Enjoy more than 130 available trading pairs
+- Cutting-edge matching engine technologies
+- Up 5x and 10x leverage for more than 29 markets
+- Deep liquidity
+- User-friendly trading terminal
+- Tight spreads
+- Consistent trading competitions and giveaways",https://exchange.bitcoin.com/,https://assets.coingecko.com/markets/images/467/small/logomark.png?1568799194,False,8,22,75250.89822590683,75250.89822590683,12
+22,coinbene,CoinBene,2017.0,Singapore,,http://www.coinbene.com/#/,https://assets.coingecko.com/markets/images/109/small/CoinBene_logo.png?1607418278,False,8,23,66969.62632493804,66969.62632493804,39
+23,bithumb,Bithumb,2014.0,South Korea,,https://www.bithumb.com/,https://assets.coingecko.com/markets/images/6/small/bithumb_BI.png?1573104549,False,8,24,62614.12579120737,62614.12579120737,17
+24,zb,ZB,2017.0,China,,https://www.zb.com/,https://assets.coingecko.com/markets/images/115/small/zb.jpg?1519996151,False,8,25,61378.402082464425,61378.402082464425,101
+25,digifinex,Digifinex,2018.0,Seychelles,,https://www.digifinex.com/,https://assets.coingecko.com/markets/images/225/small/DF_logo.png?1594264355,False,8,26,57815.41933757739,57815.41933757739,50
+26,biki,BiKi,2018.0,Singapore,"BiKi is a centralized cryptocurrency exchange located in Singapore. There are 470 coins and 515 trading pairs on the exchange. BiKi volume in the last 24 hours is reported to be at ₿20,541.23. The most active trading pair on BiKi exchange is ETH/USDT. BiKi is established in year 2018.
+
+More information about BiKi exchange can be found at https://www.biki.cc/register?inviteCode=WWAETAA. ",https://www.biki.cc/,https://assets.coingecko.com/markets/images/384/small/BiKi_icon.png?1573632986,False,8,27,42874.903223566616,42874.903223566616,8
+27,cointiger,CoinTiger,2017.0,Singapore,,https://www.cointiger.com/,https://assets.coingecko.com/markets/images/204/small/cointiger.png?1588935091,False,8,28,32114.042750757595,32114.042750757595,45
+28,bitget,Bitget,2018.0,Singapore,,https://www.bitget.com/,https://assets.coingecko.com/markets/images/540/small/bitget-logo-1.png?1591831975,False,8,29,30236.64015445762,30236.64015445762,16
+29,bigone,BigONE,2017.0,Seychelles,,https://bigone.com,https://assets.coingecko.com/markets/images/100/small/qcFFufEY_400x400.jpg?1561103345,False,8,30,15911.690105169164,15911.690105169164,7
+30,bitmart,BitMart,2017.0,Cayman Islands,,https://www.bitmart.com/en,https://assets.coingecko.com/markets/images/239/small/BitMart_logo.png?1611891118,False,8,31,14569.854399877247,14569.854399877247,20
+31,hoo,Hoo.com,2019.0,Hong Kong,"Hoo.com is a world’s leading blockchain assets service platform, aiming to provide safe and reliable assets management and blockchain services to users worldwide. ",https://www.hoo.com,https://assets.coingecko.com/markets/images/526/small/Hoo_Logo2.jpg?1602237762,False,8,32,14341.507835602699,14341.507835602699,62
+32,latoken,LATOKEN,2017.0,Cayman Islands,,https://latoken.com/,https://assets.coingecko.com/markets/images/124/small/LA_token.png?1605773251,False,8,33,9821.52762211954,9821.52762211954,72
+33,poloniex,Poloniex,2014.0,Seychelles,,https://poloniex.com/,https://assets.coingecko.com/markets/images/37/small/poloniex.jpg?1519639007,False,8,34,8860.696868131014,8860.696868131014,88
+34,bitflyer,bitFlyer,2014.0,Japan,,https://bitflyer.com/en-eu/,https://assets.coingecko.com/markets/images/5/small/bitflyer.jpg?1519611556,False,8,35,8615.697915564033,8615.697915564033,14
+35,lbank,LBank,2017.0,China,"Founded in October 2016, LBank is a centralized digital asset trading platform for international users. It aims to provide professional asset management solutions. At present, LBank offers hundreds of digital currency pairs. LBank also claims to have one of the highest staking rewards on any exchange.
+
+LBank's claims that its core team comes from the traditional financial industry, IT, and top 500 universities. The team aims to build the most professional integrated service platform for digital assets while ensuring security.",https://www.lbank.info/,https://assets.coingecko.com/markets/images/118/small/LBank%E5%9C%86%E6%A0%87.png?1572923264,False,8,36,7898.958598970259,7898.958598970259,73
+36,etorox,eToroX,2019.0,Gibraltar,"eToroX is eToro’s professional crypto exchange. Designed exclusively for the corporate and institutional-grade crypto trading community, the eToroX exchange is a highly effective, trusted and secure crypto trading solution, which is licensed and regulated by the Gibraltar Financial Services Commission under the Investments and Financial Fiduciary Services Act (licence number FSC1333B). eToroX currently has more than 30 digital assets, including 17 tokenized fiat and commodity stablecoins, and more than 100 trading pairs.",https://www.etorox.com/,https://assets.coingecko.com/markets/images/503/small/eToroX_Logo_400x400.jpg?1580209571,False,8,37,4223.022907473953,4223.022907473953,52
+37,bitkub,Bitkub,2018.0,Thailand,,https://www.bitkub.com,https://assets.coingecko.com/markets/images/249/small/bitkub.png?1537180687,False,8,38,4182.194173381895,4182.194173381895,19
+38,indodax,Indodax,2014.0,Indonesia,,https://indodax.com,https://assets.coingecko.com/markets/images/3/small/logogram-Indodax-new-_JPG_format.jpg?1580974378,False,8,39,2878.3882432143823,2878.3882432143823,66
+39,cex,CEX.IO,2013.0,United Kingdom,,https://cex.io/,https://assets.coingecko.com/markets/images/56/small/main-icon.png?1617267530,False,8,40,1074.2608861914282,1074.2608861914282,37
+40,max_maicoin,Max Maicoin,,Taiwan,,https://max.maicoin.com,https://assets.coingecko.com/markets/images/218/small/max.jpg?1533888641,False,8,41,806.0806599326569,806.0806599326569,75
+41,dextrade,Dex-Trade,2019.0,United Kingdom,"Dex-Trade is young but the most technical equiped crypto exchange, it offers traders easy-to-use interface and transactions safity. Since 2018, Dex-Trade team has the most fully range of security measures and security risk control measures in the industry. Dex-Trade welcomes global users and continues to expands digital currency in various countries to provide users with global trading opportunities. High-quality currencies are listed on Dex-Trade to offer traders comprehensive range of digital assets. By your side 24 hours a day, our support team will assist you with any issue or question you may have.",https://dex-trade.com/,https://assets.coingecko.com/markets/images/380/small/Dex-Trade_logo_new.png?1599629803,False,8,42,755.534494440505,755.534494440505,49
+42,bitopro,BitoPro,2018.0,Taiwan,,https://www.bitopro.com/,https://assets.coingecko.com/markets/images/358/small/bitopro_coingecko_250x250_%281%29.png?1575884378,False,8,43,431.11758786875123,431.11758786875123,23
+43,kuna,Kuna Exchange,,United Kingdom,,https://kuna.io/,https://assets.coingecko.com/markets/images/97/small/kuna_exchange.png?1545126178,False,8,44,75.94772098944019,75.94772098944019,71
+44,narkasa,Narkasa,2020.0,Turkey,,https://narkasa.com/,https://assets.coingecko.com/markets/images/573/small/narkasa.jpg?1599029564,False,8,45,56.40064609007422,56.40064609007422,79
+45,upbit,Upbit,2017.0,South Korea,,https://upbit.com,https://assets.coingecko.com/markets/images/117/small/upbit.png?1520388800,False,7,46,305967.0865778522,305967.0865778522,94
+46,bkex,BKEX,2018.0,British Virgin Islands,,https://www.bkex.com/,https://assets.coingecko.com/markets/images/293/small/logo.png?1588125944,False,7,47,65023.05869630838,65023.05869630838,29
+47,xt,XT,2018.0,Seychelles,,https://www.xt.com/,https://assets.coingecko.com/markets/images/404/small/logo400x400.png?1575881839,False,7,48,42052.49893501094,42052.49893501094,98
+48,mxc,MXC,2018.0,,"Launched in Apr 2018, MXC is a centralized cryptocurrency exchange registered in Seychelles. It supports CNY, VND, USD, GBP, EUR, AUD deposit, and CNY, VND withdrawal.",https://www.mxc.com/,https://assets.coingecko.com/markets/images/409/small/MXC.png?1558593762,False,7,49,37549.98602843138,37549.98602843138,78
+49,coinsbit,Coinsbit,,Estonia,,https://coinsbit.io/,https://assets.coingecko.com/markets/images/267/small/Coinsbit.png?1605153697,False,8,50,36558.42005428292,36558.42005428292,44
+50,whitebit,WhiteBIT,2018.0,Estonia,,https://whitebit.com,https://assets.coingecko.com/markets/images/418/small/wb_3_avatar-02.png?1611212424,False,7,51,31724.549330750408,31724.549330750408,97
+51,bitrue,Bitrue,2018.0,Singapore,,https://www.bitrue.com/,https://assets.coingecko.com/markets/images/254/small/bitrue-exchange.jpg?1537878894,False,7,52,25714.38948273511,25714.38948273511,25
+52,coinone,Coinone,2016.0,South Korea,,https://coinone.co.kr/,https://assets.coingecko.com/markets/images/20/small/coinone_circle_500x500.png?1606460853,False,7,53,23208.229842034758,23208.229842034758,43
+53,paribu,Paribu,,Turkey,,https://www.paribu.com/,https://assets.coingecko.com/markets/images/136/small/paribu.jpg?1527734779,,7,54,22449.28379797432,22449.28379797432,86
+54,omgfin,Omgfin,2018.0,Estonia,,https://omgfin.com/exchange/,https://assets.coingecko.com/markets/images/396/small/Screenshot_11.png?1556858288,False,7,55,15378.237315686072,15378.237315686072,85
+55,bitbank,Bitbank,2016.0,Japan,,https://bitbank.cc/,https://assets.coingecko.com/markets/images/122/small/bitbank.jpg?1521186278,False,7,56,12493.886680972542,12493.886680972542,11
+56,cbx,CBX,2018.0,United Arab Emirates,,https://www.cbx.one,https://assets.coingecko.com/markets/images/355/small/cbx.jpg?1581414643,False,7,57,10797.113957148682,10797.113957148682,36
+57,coinhe,CoinHe,2018.0,Singapore,,https://coinhe.io/,https://assets.coingecko.com/markets/images/458/small/coinhe.png?1565866997,False,7,58,8812.829616586932,8812.829616586932,42
+58,oceanex,Oceanex,2018.0,Cayman Islands,,https://oceanex.pro,https://assets.coingecko.com/markets/images/341/small/Oceanex.png?1548153658,False,7,59,7575.921924503838,7575.921924503838,82
+59,probit,ProBit,2017.0,Seychelles,,https://www.probit.com/,https://assets.coingecko.com/markets/images/370/small/probit.png?1594886584,False,7,60,7046.126341783729,7046.126341783729,89
+60,aex,AEX,2013.0,Seychelles,,https://www.aex.cool/,https://assets.coingecko.com/markets/images/449/small/aex.png?1596082957,False,7,61,5378.581035725123,5378.581035725123,2
+61,coincheck,Coincheck,2014.0,Japan,,https://coincheck.com/,https://assets.coingecko.com/markets/images/18/small/Coincheck.jpg?1519703836,,7,62,3516.437759960117,3516.437759960117,40
+62,luno,Luno,2013.0,Singapore,,https://www.luno.com,https://assets.coingecko.com/markets/images/33/small/luno.jpg?1519996997,False,7,63,2988.8515320054235,2988.8515320054235,74
+63,gopax,GoPax,2016.0,South Korea,,https://www.gopax.co.kr/exchange/,https://assets.coingecko.com/markets/images/144/small/gopax.jpg?1523527412,,7,64,2715.3619723971965,2715.3619723971965,60
+64,korbit,Korbit,2013.0,South Korea,,https://www.korbit.co.kr/,https://assets.coingecko.com/markets/images/28/small/korbit-logo.png?1584091827,False,7,65,2226.362759105847,2226.362759105847,68
+65,emirex,Emirex,2019.0,Estonia,"Launched on 10/09/2019, Emirex is a centralized exchange located at 405, Al Saaha Offices C, Dubai, UAE. It supports USD, EUR, AED fiat pairs/OTC/IEOs",https://www.emirex.com/,https://assets.coingecko.com/markets/images/592/small/Emirex.png?1602067691,False,7,66,1976.121778246915,1976.121778246915,51
+66,ftx_us,FTX.US,2020.0,United States,,https://ftx.us/,https://assets.coingecko.com/markets/images/532/small/FTX-US.jpg?1609051756,False,7,67,1709.4316003741574,1709.4316003741574,55
+67,nominex,Nominex,2019.0,Seychelles,"New trading platform for convenient trading experience with low fees and numerous instruments. 
+
+Absolutely unique affiliate program that allows to earn from an infinite number of referral levels, compared to 2-3 levels at all other exchanges. 
+
+A unique model for the free 2 phases distribution of the native NMX token.
+
+Advanced Trading Instruments – using Stop, Stop Limit, Trailing Stop, Scaled and other types of orders brings some kind of trading automation without the need to develop a trading bot, which allows to easily get more profit while trading.",https://www.nominex.io,https://assets.coingecko.com/markets/images/530/small/logo-200x200.png?1587543672,False,7,68,1598.6962080570024,1598.6962080570024,81
+68,okcoin,OKCoin,2013.0,United States,"About OKCoin:
+OKCoin is one of the largest and most trusted fiat-to-crypto trading platforms in the world. Founded in 2013, OKCoin offers advanced features for crypto beginners and high-volume traders alike, enabling users in 184 countries worldwide to exchange US dollars and the euro for Bitcoin, Tethers, USDK, Bitcoin Cash, Ethereum, Ethereum Classic, Decred, EOS, Litecoin, XRP, Cardano, 0x, Stellar, Zcash, TRX, and other digital assets. As a registered Money Services Business (MSB) with the Financial Crimes Enforcement Network (FinCEN) and a Virtual Financial Asset Act (VFAA) exchange with a transitory provision permissioned by the Malta Financial Services Authority, OKCoin is on a mission to make digital assets accessible to the world while complying with the highest of regulatory standards. For more information, visit www.okcoin.com. ",https://www.okcoin.com/,https://assets.coingecko.com/markets/images/415/small/okcoin.png?1559105547,False,7,69,1526.356740656677,1526.356740656677,83
+69,btcmarkets,BTCMarkets,,Australia,,https://www.btcmarkets.net/,https://assets.coingecko.com/markets/images/237/small/btcmarkets-exchange.jpg?1536726060,False,7,70,1141.9813573684523,1141.9813573684523,31
+70,mercado_bitcoin,Mercado Bitcoin,2016.0,Brazil,,https://www.mercadobitcoin.com.br/,https://assets.coingecko.com/markets/images/34/small/mercado.png?1520923694,,7,71,1142.5651033441,1142.5651033441,77
+71,blockchain_com,Blockchain.com,2012.0,United Kingdom,,https://www.blockchain.com/,https://assets.coingecko.com/markets/images/613/small/unnamedddd.png?1610503741,False,7,72,905.1903307759625,905.1903307759625,30
+72,cryptology,Cryptology,2018.0,Estonia,,https://cryptology.com/,https://assets.coingecko.com/markets/images/287/small/cryptology.png?1541390904,False,7,73,685.0165714787119,685.0165714787119,46
+73,atomars,Atomars,2019.0,,,https://atomars.com,https://assets.coingecko.com/markets/images/457/small/logo-ATOMARS-black.png?1565004325,False,7,74,650.8351701324225,650.8351701324225,4
+74,independent_reserve,Independent Reserve,2013.0,Australia,,https://www.independentreserve.com/,https://assets.coingecko.com/markets/images/389/small/x_V5Jquo_400x400.png?1556071437,False,7,75,597.2523648570864,597.2523648570864,65
+75,bitpanda,Bitpanda Pro,2014.0,Austria,,https://exchange.bitpanda.com,https://assets.coingecko.com/markets/images/474/small/13Izs9bs.jpg?1607048894,False,7,76,508.18174538852674,508.18174538852674,24
+76,aax,AAX,2019.0,,"AAX is the world’s first cryptocurrency exchange to be powered by LSEG Technology’s Millennium Exchange, the same matching engine at the heart of tier-one capital markets. AAX is a member of London Stock Exchange Group’s global ‘Partner Platform’. Offering OTC, Spot, and Futures trading, quoting more than 50 cryptocurrency pairs and listing 5 perpetual futures contracts for Bitcoin, Ether, Litecoin, Ripple, and EOS, which can be traded with high leverage, AAX provides a secure, deeply liquid, ultra-low latency and fully compliant trading platform. It offers an institutional-grade platform, for everyone. ",https://www.aax.com,https://assets.coingecko.com/markets/images/527/small/aax_app_logo.png?1586779427,False,7,77,386.8381296384671,386.8381296384671,1
+77,zaif,Zaif,2015.0,Japan,,https://zaif.jp/,https://assets.coingecko.com/markets/images/99/small/zaif.png?1519627467,,7,78,366.02244801034914,366.02244801034914,100
+78,itbit,itBit,2013.0,United States,,https://www.itbit.com/,https://assets.coingecko.com/markets/images/26/small/itbit.png?1519810172,False,7,79,1188.5241973382815,0.0,67
+79,vcc,VCC Exchange,2019.0,Vietnam,"Launched on May 19, 2019, VCC Exchange is an exchange based in Singapore, operates in Vietnam. It has worked with the government in few initiatives including Dialogue on blockchain-based applications’ legal framework (https://bit.ly/32SJVl2) and Vietnam Blockchain Startup (https://bit.ly/341Iv7Q).
+
+VCC supports trading crypto-crypto, VND-crypto in web, iOS and Android applications. VCC Exchange is backed by Signum Capital and Axiom Associates Capital. It currently supports trading fee of 0%.",https://vcc.exchange,https://assets.coingecko.com/markets/images/500/small/VCC_Logo_200x200.jpg?1576147069,False,6,80,258611.78286344642,258611.78286344642,95
+80,bidesk,Bidesk,2019.0,British Virgin Islands,"Bidesk exchange is a digital asset trading platform aiming to provide a secure and safe platform for trading liquidity of in demand and quality tokens with a class user experience. Its advanced fast matching engine, 24/7 customer support and high-grade financial support services are expected to maximize the wealth growth opportunities to its users. ",https://www.bidesk.com/,https://assets.coingecko.com/markets/images/545/small/bidesk.png?1593787873,False,6,81,160391.23305704238,160391.23305704238,6
+81,bitoffer,Bitoffer,2019.0,Hong Kong,,https://www.bitoffer.com/en,https://assets.coingecko.com/markets/images/456/small/S1naTFE.png?1565005583,False,6,82,122101.64857373266,122101.64857373266,22
+82,hitbtc,HitBTC,2013.0,,"HitBTC is the world’s most advanced cryptocurrency exchange. Since 2013, HitBTC has been providing markets for Bitcoin, Ethereum, Litecoin, Dogecoin, Monero, USDT, and more than 300 cryptocurrencies in total.
+
+Created by outstanding technical minds, high-level finance professionals and experienced traders, HitBTC delivers the most reliable, fast and powerful platform solution on the market.
+
+The platform has earned its reputation for fault-tolerance, flawless uptime and high availability. Its core matching engine is among the best technological products in its class, offering traders a wide range of features such as real-time clearing and cutting-edge order matching algorithms.
+
+Key Features:
+Rebate system - attractive to the most powerful market makers, creating high liquidity
+No limits on the deposit or withdrawal of digital assets
+Cutting-edge matching engine technologies
+Wide range of available instruments (more than 500)
+The most advanced API on the market (REST API and FIX API)
+Access to the crypto assets exchange platform technology under the registered trademark “HitBTC” is provided in accordance with the Terms of Service.",https://hitbtc.com/,https://assets.coingecko.com/markets/images/24/small/hitbtc.png?1603975458,False,6,83,84061.95426740199,84061.95426740199,61
+83,mdex,Mdex,2021.0,British Virgin Islands,,https://ht.mdex.com/#/swap,https://assets.coingecko.com/markets/images/631/small/mdex.png?1614153051,False,6,84,56851.125368561836,56851.125368561836,76
+84,uniswap,Uniswap (v2),2018.0,,,https://uniswap.exchange/swap,https://assets.coingecko.com/markets/images/535/small/256x256_Black-1.png?1590893262,False,6,85,20770.078492683726,20770.078492683726,93
+85,btcturk,BtcTurk PRO,,Turkey,,https://pro.btcturk.com/,https://assets.coingecko.com/markets/images/223/small/BTCTurk-exchange.jpg?1536726120,False,6,86,20487.905981797274,20487.905981797274,32
+86,bibox,Bibox,2017.0,China,,https://www.bibox.com/,https://assets.coingecko.com/markets/images/114/small/bibox.jpg?1520752603,False,6,87,17447.363302390007,17447.363302390007,5
+87,bw,BW.com,2017.0,,,https://www.bw.com/,https://assets.coingecko.com/markets/images/326/small/bw.com.jpg?1548664400,False,6,88,15183.733828874922,15183.733828874922,35
+88,thodex,Thodex,2017.0,Turkey,"Thodex gathers all cryptocurrency users on a single platform, serving globally with its understanding of quality service, safe investment and user satisfaction.",https://www.thodex.com/en,https://assets.coingecko.com/markets/images/614/small/Thodex.jpg?1610617806,False,6,89,14955.373015093004,14955.373015093004,92
+89,btc_alpha,BTC-Alpha,2016.0,,,https://btc-alpha.com/exchange/,https://assets.coingecko.com/markets/images/155/small/btc_alpha.jpg?1526356352,False,6,90,10615.234871148745,10615.234871148745,33
+90,coineal,Coineal,2018.0,Seychelles,,https://www.coineal.com/,https://assets.coingecko.com/markets/images/289/small/1537958245x-1566680256.png?1539679939,False,6,91,10355.99262025476,10355.99262025476,41
+91,phemex,Phemex,2019.0,Singapore,,https://phemex.com/,https://assets.coingecko.com/markets/images/564/small/phemex_logo.jpg?1596681293,False,6,92,9818.049103446276,9818.049103446276,87
+92,sushiswap,Sushiswap,2020.0,,,https://sushiswap.fi/,https://assets.coingecko.com/markets/images/576/small/2048x2048_Logo.png?1609208464,False,6,93,6390.628724477489,6390.628724477489,91
+93,quoine,Liquid,2014.0,Japan,,https://liquid.com,https://assets.coingecko.com/markets/images/40/small/liquid.png?1536133472,False,6,94,6292.877482749777,6292.877482749777,90
+94,bvnex,Bvnex,2018.0,Vietnam,"BVNEX - Exchange is rooted in the Vietnam market, welcomes all users around the world. BVNEX has always been committed to establishing the most professional comprehensive service platform for the crypto asset in Vietnam to provide the best and most effective security for users with the leading core technology development team, independent intellectual property rights include many elite blockchain from Vietnam, China and Germany.",https://www.bvnex.com/,https://assets.coingecko.com/markets/images/499/small/bvnex.png?1575459336,False,6,95,5575.565443579922,5575.565443579922,34
+95,wazirx,WazirX,2018.0,India,,https://wazirx.com/,https://assets.coingecko.com/markets/images/274/small/wazirx.jpg?1540450020,False,6,96,4223.677075596673,4223.677075596673,96
+96,currency,Currency.com,2019.0,Belarus,"Currency.com is the world’s first regulated tokenised securities exchange enabling anyone with crypto and fiat to trade financial assets from the world’s biggest companies with up to 500x leverage. 
+ 
+Currency.com enables crypto holders to make the most of your investment by offering access to more than 1300 tokenised securities of the most traded global financial assets – all without putting your crypto holdings under price pressure or converting to fiat"" to the following one ""Currency.com enables crypto holders to make the most of your investment by offering access to more than 2000+ tokenised securities of the most traded global financial assets – all without putting your crypto holdings under price pressure or converting to fiat
+ 
+With Currency.com you can:
+- Do more with less with up to 500x leverage (or buy and sell assets of your choice);
+- Manage your risk with sell at loss, guaranteed sell at loss, take profit orders;
+- Elevate your trading strategy with access to over 75 technical indicators;
+- Fund your account and withdraw via card, bank transfer or crypto wallet;
+- Step ahead of the pack with instant price alerts;
+- Never lose more than you put in with negative balance protection;
+- Trade confidently with a regulated platform and dedicated human support;
+- See where you stand with personalised trading reports.
+ 
+Currency.com offers you a new generation financial app for both crypto and fiat. The free mobile platform is designed to buy and sell cryptos with fiat money, store holdings in a secure place and make cross-crypto exchanges. Competitive quotes are coupled with trusted regulatory standards to give users the best possible financial experience.
+ 
+Currency.com – an exchange where crypto meets Wall St.",https://currency.com/,https://assets.coingecko.com/markets/images/512/small/Currency.com_200x200.png?1582086630,False,6,97,3037.7336713478994,3037.7336713478994,48
+97,gmo_japan,GMO Japan,,Japan,,https://coin.z.com/jp/,https://assets.coingecko.com/markets/images/430/small/gmo_z_com.png?1561112572,False,6,98,2563.496985774756,2563.496985774756,59
+98,exmo,EXMO,2013.0,United Kingdom,,https://exmo.com/,https://assets.coingecko.com/markets/images/59/small/exmo.png?1584091923,False,6,99,2504.5604228461534,2504.5604228461534,53
+99,alterdice,AlterDice,2018.0,Singapore,,https://alterdice.com/,https://assets.coingecko.com/markets/images/327/small/alterdice_%281%29.png?1604294926,False,6,100,2021.1539549071335,2021.1539549071335,3
