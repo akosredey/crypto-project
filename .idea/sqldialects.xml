@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="notebook://C:/Users/akosr/CAS_DAENG/crypto_project/01_Crypto_EDA/01_Crypto_EDA.ipynb" dialect="GenericSQL" />
-    <file url="PROJECT" dialect="SQLite" />
-  </component>
-</project>
