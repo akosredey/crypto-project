@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Sqlite" id="Project_2321" database="Sqlite" >
+	<schema name="Default" >
+		<table name="Altcoin_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Open" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="High" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Low" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Close" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="WeightedPrice" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Volume_Market" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Volume_BTC" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="MarketID" type="integer" jt="4" mandatory="y" />
+			<column name="ExchangeID" type="integer" jt="4" mandatory="y" />
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<index name="pk_Altcoin_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_Altcoin_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Date" pk="Date" />
+			</fk>
+			<fk name="Fk_Altcoin_Data" to_schema="Default" to_table="Exchanges" delete_action="cascade" >
+				<fk_column name="ExchangeID" pk="ExchangeID" />
+			</fk>
+			<fk name="Fk_Altcoin_Data" to_schema="Default" to_table="Markets" delete_action="cascade" >
+				<fk_column name="MarketID" pk="MarketID" />
+			</fk>
+		</table>
+		<table name="BTC_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Open" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="High" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Low" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Close" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="WeightedPrice" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Volume_USD" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Volume_BTC" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="MarketID" type="integer" jt="4" mandatory="y" />
+			<column name="ExchangeID" type="integer" jt="4" mandatory="y" />
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<index name="pk_BTC_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_BTC_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Date" pk="Date" />
+			</fk>
+			<fk name="Fk_BTC_Data" to_schema="Default" to_table="Exchanges" delete_action="cascade" >
+				<fk_column name="ExchangeID" pk="ExchangeID" />
+			</fk>
+			<fk name="Fk_BTC_Data" to_schema="Default" to_table="Markets" delete_action="cascade" >
+				<fk_column name="MarketID" pk="MarketID" />
+			</fk>
+		</table>
+		<table name="Date_Table" >
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="DateID" type="integer" jt="4" mandatory="y" />
+			<column name="Week_day" type="varchar" length="50" jt="12" mandatory="y" />
+			<column name="Day" type="integer" jt="4" mandatory="y" />
+			<column name="Month" type="integer" jt="4" mandatory="y" />
+			<column name="Week" type="integer" jt="4" mandatory="y" />
+			<column name="Quarter" type="integer" jt="4" mandatory="y" />
+			<column name="Year" type="integer" jt="4" mandatory="y" />
+			<index name="pk_Date_Table" unique="PRIMARY_KEY" >
+				<column name="Date" />
+			</index>
+		</table>
+		<table name="Emmissions_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Year" type="integer" jt="4" mandatory="y" />
+			<column name="CO2_Em" type="real" jt="8" />
+			<index name="pk_Emmissions_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_Emmissions_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Year" pk="Year" />
+			</fk>
+		</table>
+		<table name="Exchanges" >
+			<column name="ExchangeID" type="integer" jt="4" mandatory="y" />
+			<column name="Id" type="varchar" length="50" jt="12" mandatory="y" />
+			<column name="Name" type="varchar" length="50" jt="12" />
+			<column name="Year_Established" type="real" jt="8" />
+			<column name="Country" type="varchar" length="50" jt="12" />
+			<column name="Description" type="text" jt="-1" />
+			<column name="Url" type="text" jt="-1" />
+			<column name="Image" type="text" jt="-1" />
+			<column name="Has_Trading_Incentive" type="real" jt="8" />
+			<column name="Trust_Score" type="integer" jt="4" mandatory="y" />
+			<column name="Truest_Score_Rank" type="integer" jt="4" mandatory="y" />
+			<column name="Trade_Volume_24H_Btc" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Trade_Volume_24H_Btc_Normalized" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Trading_Inc" type="integer" jt="4" />
+			<index name="pk_Exchanges" unique="PRIMARY_KEY" >
+				<column name="ExchangeID" />
+			</index>
+		</table>
+		<table name="Fin_Assets_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Open" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="High" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Low" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Close" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="AdjClose" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Volume" type="real" jt="8" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Asset" type="varchar" length="50" jt="12" />
+			<column name="Symbol" type="varchar" length="10" jt="12" />
+			<column name="Source" type="varchar" length="10" jt="12" />
+			<column name="MarketID" type="integer" jt="4" mandatory="y" />
+			<column name="ExchangeID" type="integer" jt="4" mandatory="y" />
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<index name="pk_Fin_Assets_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_Fin_Assets_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Date" pk="Date" />
+			</fk>
+			<fk name="Fk_Fin_Assets_Data" to_schema="Default" to_table="Exchanges" delete_action="cascade" >
+				<fk_column name="ExchangeID" pk="ExchangeID" />
+			</fk>
+			<fk name="Fk_Fin_Assets_Data" to_schema="Default" to_table="Markets" delete_action="cascade" >
+				<fk_column name="MarketID" pk="MarketID" />
+			</fk>
+		</table>
+		<table name="Markets" >
+			<column name="MarketID" type="integer" jt="4" mandatory="y" />
+			<column name="Id" type="varchar" length="50" jt="12" mandatory="y" />
+			<column name="Symbol" type="varchar" length="10" jt="12" mandatory="y" />
+			<column name="Name" type="varchar" length="50" jt="12" />
+			<column name="Market_Cap" type="integer" jt="4" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Market_Cap_Rank" type="integer" jt="4" mandatory="y" />
+			<column name="Fully_Diluted_Valuation" type="real" jt="8" />
+			<column name="Total_Volume" type="integer" jt="4" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="High_24H" type="real" jt="8" />
+			<column name="Low_24H" type="real" jt="8" />
+			<column name="Price_Change_24H" type="real" jt="8" />
+			<column name="Price_Change_Percentage_24H" type="real" jt="8" />
+			<column name="Market_Cap_Change_24H" type="real" jt="8" />
+			<column name="Market_Cap_Change_Percentage_24H" type="real" jt="8" />
+			<column name="Circulating_Supply" type="real" jt="8" />
+			<column name="Total_Supply" type="integer" jt="4" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Max_Supply" type="integer" jt="4" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="Ath" type="real" jt="8" />
+			<column name="Ath_Change_Percentage" type="real" jt="8" />
+			<column name="Ath_Date" type="datetime" jt="93" />
+			<column name="Atl" type="real" jt="8" />
+			<column name="Atl_Change_Percentage" type="real" jt="8" />
+			<column name="Atl_Date" type="datetime" jt="93" />
+			<column name="Roi" type="text" jt="-1" />
+			<column name="Last_Updated" type="datetime" jt="93" />
+			<index name="pk_Markets" unique="PRIMARY_KEY" >
+				<column name="MarketID" />
+			</index>
+		</table>
+		<table name="Sentiments_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Bullish" type="real" jt="8" />
+			<column name="Bearish" type="real" jt="8" />
+			<column name="Bull_MA_8wk" type="real" jt="8" />
+			<column name="Bull_BearSpread" type="real" jt="8" />
+			<column name="Bear_MA_8wk" type="real" jt="8" />
+			<column name="Bull_BearSpreadMA_8wk" type="real" jt="8" />
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<index name="pk_Sentiments_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_Sentiments_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Date" pk="Date" />
+			</fk>
+		</table>
+		<table name="Transaction_Data" >
+			<column name="ID" type="integer" jt="4" mandatory="y" />
+			<column name="Cost_per_TR" type="real" jt="8" />
+			<column name="Num_TR_per_Block" type="real" jt="8" />
+			<column name="Num_TR_ex_pop" type="integer" jt="4" />
+			<column name="MarketID" type="integer" jt="4" mandatory="y" />
+			<column name="Date" type="date" jt="91" mandatory="y" />
+			<index name="pk_Transaction_Data" unique="PRIMARY_KEY" >
+				<column name="ID" />
+			</index>
+			<fk name="Fk_Transaction_Data" to_schema="Default" to_table="Date_Table" delete_action="cascade" >
+				<fk_column name="Date" pk="Date" />
+			</fk>
+			<fk name="Fk_Transaction_Data" to_schema="Default" to_table="Markets" delete_action="cascade" >
+				<fk_column name="MarketID" pk="MarketID" />
+			</fk>
+		</table>
+	</schema>
+	<connector name="Sqlite" database="Sqlite" driver_class="org.sqlite.JDBC" driver_jar="sqlite-jdbc-3.34.0.jar" driver_desc="Standard" host="localhost" port="7210" instance="C:/Users/akosr/CAS_DAENG/crypto_project/01_Crypto_EDA/crypto.db" />
+	<layout name="Layout with Tools" id="Layout_222e" show_column_type="y" show_relation="columns" >
+		<entity schema="Default" name="Altcoin_Data" color="BED3F4" x="48" y="576" />
+		<entity schema="Default" name="BTC_Data" color="BED3F4" x="288" y="576" />
+		<entity schema="Default" name="Date_Table" color="BED3F4" x="288" y="288" />
+		<entity schema="Default" name="Emmissions_Data" color="BED3F4" x="544" y="96" />
+		<entity schema="Default" name="Exchanges" color="BED3F4" x="528" y="896" />
+		<entity schema="Default" name="Fin_Assets_Data" color="BED3F4" x="48" y="224" />
+		<entity schema="Default" name="Markets" color="BED3F4" x="544" y="288" />
+		<entity schema="Default" name="Sentiments_Data" color="BED3F4" x="896" y="288" />
+		<entity schema="Default" name="Transaction_Data" color="BED3F4" x="288" y="48" />
+		<script name="Sample SQL Editor" id="Editor_9e0" language="SQL" >
+			<string><![CDATA[SELECT Date, ID, DateID, Week_day, Day, Month, Week, Quarter, Year
+FROM
+	Date_Table e;]]></string>
+		</script>
+		<browser id="Browse_1b78" name="Sample Relational Data Explorer" confirm_updates="y" >
+			<browse_table schema="Default" entity="Date_Table" x="20" y="20" width="400" height="300" >
+				<browse_table schema="Default" entity="Altcoin_Data" fk="Fk_Altcoin_Data" x="440" y="20" width="500" height="350" >
+					<browse_table schema="Default" entity="Markets" fk="Fk_Altcoin_Data" x="960" y="20" width="500" height="350" record_view="y" />
+				</browse_table>
+			</browse_table>
+		</browser>
+		<query id="Query_13b3" name="Sample Query Builder" >
+			<query_table schema="Default" name="Date_Table" alias="dt" x="48" y="48" >
+				<column name="Date" />
+				<column name="ID" />
+				<column name="DateID" />
+				<column name="Week_day" />
+				<column name="Day" />
+				<column name="Month" />
+				<column name="Week" />
+				<column name="Quarter" />
+				<column name="Year" />
+				<query_table schema="Default" name="Altcoin_Data" alias="ad" x="208" y="48" fk="Fk_Altcoin_Data" type="Inner Join" >
+					<column name="ID" />
+					<column name="Open" />
+					<column name="High" />
+					<column name="Low" />
+					<column name="Close" />
+					<column name="WeightedPrice" />
+					<column name="Volume_Market" />
+					<column name="Volume_BTC" />
+					<column name="MarketID" />
+					<column name="ExchangeID" />
+					<column name="Date" />
+					<query_table schema="Default" name="Markets" alias="m" x="416" y="48" fk="Fk_Altcoin_Data" type="Inner Join" >
+						<column name="MarketID" />
+						<column name="Id" />
+						<column name="Symbol" />
+						<column name="Name" />
+						<column name="Market_Cap" />
+						<column name="Market_Cap_Rank" />
+						<column name="Fully_Diluted_Valuation" />
+						<column name="Total_Volume" />
+						<column name="High_24H" />
+						<column name="Low_24H" />
+						<column name="Price_Change_24H" />
+						<column name="Price_Change_Percentage_24H" />
+						<column name="Market_Cap_Change_24H" />
+						<column name="Market_Cap_Change_Percentage_24H" />
+						<column name="Circulating_Supply" />
+						<column name="Total_Supply" />
+						<column name="Max_Supply" />
+						<column name="Ath" />
+						<column name="Ath_Change_Percentage" />
+						<column name="Ath_Date" />
+						<column name="Atl" />
+						<column name="Atl_Change_Percentage" />
+						<column name="Atl_Date" />
+						<column name="Roi" />
+						<column name="Last_Updated" />
+					</query_table>
+				</query_table>
+			</query_table>
+		</query>
+		<form name="Sample Report" id="Report_11c8" template="Wide Page" view="frame" >
+			<var name="samplePageNumber" type="4" value="0" mandatory="n" />
+			<var name="sampleRecordsPerPage" type="4" value="100" mandatory="n" />
+			<body name="Body" template="Grid" pos="0,0,0,0,f,f" layout="{{-2,-2,-2,-2,-1},{-2,-2,-2}}" scroll="n" html="n" >
+				<cell type="label" name="sample" template="H3" pos="0,0,1,0,l,c" />
+				<tableview name="sample" template="Table" css="table table-striped table-bordered table-sm table-hover" pos="0,1,4,1,f,f" layout="{{-2,-2,-2,-2,-2,-2,-2,-2,-2},{-2,-2}}" scroll="n" html="n" header_rows="1" >
+					<form_script type="DataSource" language="SQL" >
+						<var name="Date" type="91" />
+						<var name="ID" type="4" />
+						<var name="DateID" type="4" />
+						<var name="Week_day" />
+						<var name="Day" type="4" />
+						<var name="Month" type="4" />
+						<var name="Week" type="4" />
+						<var name="Quarter" type="4" />
+						<var name="Year" type="4" />
+						<script ><![CDATA[SELECT * FROM Date_Table]]></script>
+					</form_script>
+					<cell type="label" name="Date" pos="0,0,0,0,c,c" />
+					<cell type="label" name="ID" pos="1,0,1,0,c,c" />
+					<cell type="label" name="DateID" pos="2,0,2,0,c,c" />
+					<cell type="label" name="Week_day" pos="3,0,3,0,c,c" />
+					<cell type="label" name="Day" pos="4,0,4,0,c,c" />
+					<cell type="label" name="Month" pos="5,0,5,0,c,c" />
+					<cell type="label" name="Week" pos="6,0,6,0,c,c" />
+					<cell type="label" name="Quarter" pos="7,0,7,0,c,c" />
+					<cell type="label" name="Year" pos="8,0,8,0,c,c" />
+					<cell type="label" name="${Date}" template="Plain" pos="0,1,0,1,l,c" />
+					<cell type="label" name="${ID}" template="Plain" pos="1,1,1,1,l,c" />
+					<cell type="label" name="${DateID}" template="Plain" pos="2,1,2,1,l,c" />
+					<cell type="label" name="${Week_day}" template="Plain" pos="3,1,3,1,l,c" />
+					<cell type="label" name="${Day}" template="Plain" pos="4,1,4,1,l,c" />
+					<cell type="label" name="${Month}" template="Plain" pos="5,1,5,1,l,c" />
+					<cell type="label" name="${Week}" template="Plain" pos="6,1,6,1,l,c" />
+					<cell type="label" name="${Quarter}" template="Plain" pos="7,1,7,1,l,c" />
+					<cell type="label" name="${Year}" template="Plain" pos="8,1,8,1,l,c" />
+				</tableview>
+				<cell type="href" name="" disabled="${samplePageNumber&lt;1}" pos="0,2,0,2,l,c" glyph="FA-ANGLE_DOUBLE_LEFT" ref_id="Report_11c8" >
+					<var name="samplePageNumber" value="0" />
+				</cell>
+				<cell type="href" name="" disabled="${samplePageNumber&lt;1}" pos="1,2,1,2,l,c" glyph="FA-ANGLE_LEFT" ref_id="Report_11c8" >
+					<var name="samplePageNumber" value="${Math.max(0,samplePageNumber-1)}" />
+				</cell>
+				<cell type="label" name="Page ${samplePageNumber+1}" pos="2,2,2,2,l,c" />
+				<cell type="href" name="" disabled="${!sampleHasNextPage}" pos="3,2,3,2,l,c" glyph="FA-ANGLE_RIGHT" ref_id="Report_11c8" >
+					<var name="samplePageNumber" value="${( samplePageNumber+1 )}" />
+				</cell>
+			</body>
+		</form>
+	</layout>
+	<layout name="Main Layout" id="Layout_25cb" show_relation="columns" >
+		<entity schema="Default" name="Altcoin_Data" color="BED3F4" x="48" y="400" />
+		<entity schema="Default" name="BTC_Data" color="BED3F4" x="256" y="720" />
+		<entity schema="Default" name="Date_Table" color="BED3F4" x="272" y="432" />
+		<entity schema="Default" name="Emmissions_Data" color="BED3F4" x="800" y="432" />
+		<entity schema="Default" name="Exchanges" color="BED3F4" x="464" y="1040" />
+		<entity schema="Default" name="Fin_Assets_Data" color="BED3F4" x="272" y="80" />
+		<entity schema="Default" name="Markets" color="BED3F4" x="464" y="432" />
+		<entity schema="Default" name="Sentiments_Data" color="BED3F4" x="800" y="704" />
+		<entity schema="Default" name="Transaction_Data" color="BED3F4" x="464" y="192" />
+		<callout x="272" y="320" pointer="Round" >
+			<comment><![CDATA[Double-click table headers, columns, or foreign keys to edit. 
+Create multiple layouts (diagrams) with the same or different tables. 
+Saving the model to file will also save the layouts.]]></comment>
+		</callout>
+		<group name="Date_Table" color="ECF0F7" >
+			<entity schema="Default" name="Date_Table" />
+			<entity schema="Default" name="Markets" />
+			<entity schema="Default" name="BTC_Data" />
+			<entity schema="Default" name="Altcoin_Data" />
+			<entity schema="Default" name="Exchanges" />
+			<entity schema="Default" name="Fin_Assets_Data" />
+			<entity schema="Default" name="Transaction_Data" />
+			<entity schema="Default" name="Emmissions_Data" />
+			<entity schema="Default" name="Sentiments_Data" />
+		</group>
+	</layout>
+</project>
